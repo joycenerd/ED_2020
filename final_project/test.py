@@ -43,6 +43,7 @@ def test():
 
         _,preds = torch.max(outputs.data,1)
         print(preds[0].item())
+	print(filename + ' evaluation complete')
 
 
 if __name__=='__main__':
